@@ -1,0 +1,1 @@
+import { Shell } from "@/components/shell"; import { ArticleEditor } from "@/components/article-editor"; export default function NewArticle(){return <Shell title="नयाँ समाचार"><ArticleEditor/></Shell>}
