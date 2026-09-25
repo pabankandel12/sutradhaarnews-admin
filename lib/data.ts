@@ -1,7 +1,7 @@
 export const menu = [
   ["ड्यासबोर्ड", "/", "gauge"], ["समाचार", "/articles", "newspaper"], ["नयाँ समाचार", "/articles/new", "pen"],
-  ["सम्पादकीय समीक्षा", "/review", "check"], ["गृहपृष्ठ", "/homepage", "home"], ["श्रेणी", "/categories", "folder"],
-  ["मिडिया", "/media", "image"], ["प्रतिक्रिया", "/comments", "comments"], ["विज्ञापन", "/ads", "rectangle-ad"], ["प्रयोगकर्ता", "/users", "users"],
+  ["सम्पादकीय समीक्षा", "/review", "check"], ["गृहपृष्ठ", "/homepage", "home"], ["शीर्षक", "/headlines", "newspaper"], ["श्रेणी", "/categories", "folder"],
+  ["मिडिया", "/media", "image"], ["फोटो ग्यालरी", "/galleries", "image"], ["ट्याग", "/tags", "folder"], ["प्रतिक्रिया", "/comments", "comments"], ["विज्ञापन", "/ads", "rectangle-ad"], ["प्रयोगकर्ता", "/users", "users"],
 ];
 export const demoArticles = [
   { id:"1", title:"नयाँ आर्थिक वर्षको प्राथमिकता: उत्पादन र रोजगारीमा जोड", category:"समाचार", author:"राम प्रसाद", status:"IN_REVIEW", updated:"१२ मिनेट अगाडि" },

@@ -1,4 +1,6 @@
-const DEFAULT_API_URL = "https://sutradhaarnews-api.onrender.com/api/v1";
+const DEFAULT_API_URL = process.env.NODE_ENV === "production"
+  ? "https://sutradhaarnews-api.onrender.com/api/v1"
+  : "http://localhost:4000/api/v1";
 
 function normalizeApiUrl(value?: string) {
   const url = (value || DEFAULT_API_URL).trim().replace(/\/+$/, "");
