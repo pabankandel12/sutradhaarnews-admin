@@ -1,0 +1,2 @@
+.admin-logo{gap:10px}.admin-logo img{width:48px;height:48px;object-fit:contain;border-radius:7px;background:#0b203b}.admin-logo strong{font-size:1.05rem}.admin-logo span{letter-spacing:1.8px}.admin-content{max-width:1580px}.page-title{padding-bottom:18px;border-bottom:1px solid var(--line)}.page-title h1{letter-spacing:-.4px}.panel,.editor-card{border-radius:10px;box-shadow:0 8px 26px rgba(11,32,59,.035)}.topbar{background:rgba(255,255,255,.94);backdrop-filter:blur(12px)}
+@media(max-width:760px){.admin-logo img{width:40px;height:40px}.admin-logo>div{display:none}}
